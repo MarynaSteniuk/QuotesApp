@@ -1,0 +1,17 @@
+<resources>
+    <string name="onboarding_title_1">Розквітни у найкращу версію себе</string>
+    <string name="onboarding_desc_1">Починай кожен ранок із ніжних слів, що надихають на впевненість, любов до себе та спокій.</string>
+    <string name="onboarding_title_2">Сяй усюди, де ти є</string>
+    <string name="onboarding_desc_2">Отримуй лагідні нагадування та щоденні афірмації, що підтримують твоє внутрішнє світло.</string>
+    <string name="onboarding_title_3">Тепло й любов щодня</string>
+    <string name="onboarding_desc_3">Відкривай затишні цитати, які зцілюють, надихають і дарують спокій.</string>
+    <string name="onboarding_title_4">Розправ крила</string>
+    <string name="onboarding_desc_4">Твій щоденний куточок доброти й натхненних цитат уже чекає. Почнімо!</string>
+    <string name="btn_skip">Пропустити</string>
+    <string name="btn_next">Далі</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_start">Почати</string>
+    <string name="home_title">Daily Quotes</string>
+    <string name="home_placeholder">Тут з’являться цитати з DummyJSON у наступній лабораторній.</string>
+    <string name="btn_show_onboarding">Показати онбординг знову</string>
+</resources>
