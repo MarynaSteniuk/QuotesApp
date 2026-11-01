@@ -1,8 +1,9 @@
-package ua.steniuk.quotesapp
+package ua.steniuk.quotesapp.presentation.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -12,7 +13,7 @@ import org.jetbrains.compose.resources.stringResource
 import ua.steniuk.quotesapp.resources.*
 
 @Composable
-fun HomeScreen(onShowOnboarding: () -> Unit) {
+fun HomeScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -34,9 +35,5 @@ fun HomeScreen(onShowOnboarding: () -> Unit) {
             color = MaterialTheme.colorScheme.onBackground,
             textAlign = TextAlign.Center
         )
-        Spacer(Modifier.height(24.dp))
-        Button(onClick = onShowOnboarding) {
-            Text(stringResource(Res.string.btn_show_onboarding))
-        }
     }
 }

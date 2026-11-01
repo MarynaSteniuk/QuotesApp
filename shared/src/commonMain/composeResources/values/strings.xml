@@ -1,17 +1,48 @@
 <resources>
-    <string name="onboarding_title_1">Bloom Into Your Best Self</string>
+    <string name="onboarding_step">Step %1$d of %2$d</string>
+
+    <string name="onboarding_chip_1">Welcome to Daily Quotes</string>
+    <string name="onboarding_title_1">Bloom Into Your</string>
+    <string name="onboarding_accent_1">Best Self</string>
     <string name="onboarding_desc_1">Start every morning with gentle words that inspire confidence, self-love and peaceful energy.</string>
-    <string name="onboarding_title_2">Sparkle Wherever You Go</string>
+    <string name="onboarding_quote_1">You are growing in ways you cannot yet see.</string>
+
+    <string name="onboarding_chip_2">Mindful reminders</string>
+    <string name="onboarding_title_2">Sparkle</string>
+    <string name="onboarding_accent_2">Wherever You Go</string>
     <string name="onboarding_desc_2">Receive soothing reminders and daily affirmations that keep your inner light glowing.</string>
-    <string name="onboarding_title_3">Filled with Love &amp; Warmth</string>
-    <string name="onboarding_desc_3">Explore comforting quotes that heal, uplift and bring peace to your day.</string>
-    <string name="onboarding_title_4">Spread Your Wings</string>
-    <string name="onboarding_desc_4">Your daily haven of kindness and inspiring quotes is ready for you. Let’s start the journey!</string>
+    <string name="onboarding_quote_2">You are blooming in your own gentle time.</string>
+
+    <string name="onboarding_chip_3">Daily affirmations</string>
+    <string name="onboarding_title_3">Filled with</string>
+    <string name="onboarding_accent_3">Love &amp; Warmth</string>
+    <string name="onboarding_desc_3">Surround your heart with comforting quotes that heal, uplift and bring peace to your day.</string>
+    <string name="onboarding_quote_3">Be gentle with yourself, you are doing your best.</string>
+
+    <string name="onboarding_chip_4">Ready to begin</string>
+    <string name="onboarding_title_4">Spread Your</string>
+    <string name="onboarding_accent_4">Wings</string>
+    <string name="onboarding_desc_4">Your daily haven of kindness, calm thoughts and inspiring quotes is ready for you. Let’s start the journey!</string>
+    <string name="onboarding_quote_4">3 daily inspirations are waiting for you</string>
+
     <string name="btn_skip">Skip</string>
     <string name="btn_next">Next</string>
     <string name="btn_back">Back</string>
     <string name="btn_start">Get Started</string>
+
     <string name="home_title">Daily Quotes</string>
     <string name="home_placeholder">Quotes from DummyJSON will appear here in the next lab.</string>
-    <string name="btn_show_onboarding">Show onboarding again</string>
+
+    <string name="auth_chip">Your daily inspiration</string>
+    <string name="auth_title">Welcome</string>
+    <string name="auth_accent">back</string>
+    <string name="auth_subtitle">Sign in to get your daily dose of inspiration</string>
+    <string name="auth_username">Username</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_sign_in">Sign in</string>
+    <string name="error_username_empty">Enter your username</string>
+    <string name="error_username_short">Username must be at least 3 characters</string>
+    <string name="error_password_empty">Enter your password</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="auth_quote">“Peace begins when expectation ends.”</string>
 </resources>

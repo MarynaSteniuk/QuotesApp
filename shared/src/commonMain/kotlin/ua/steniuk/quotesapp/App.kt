@@ -1,28 +1,21 @@
 package ua.steniuk.quotesapp
 
-import androidx.compose.runtime.*
-import co.touchlab.kermit.Logger
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import org.koin.compose.viewmodel.koinViewModel
+import ua.steniuk.quotesapp.navigation.AppNavigation
+import ua.steniuk.quotesapp.presentation.main.MainViewModel
 import ua.steniuk.quotesapp.theme.QuotesTheme
 
 @Composable
 fun App() {
     QuotesTheme {
-        var showOnboarding by remember { mutableStateOf(!AppSettings.isOnboardingDone) }
+        val viewModel: MainViewModel = koinViewModel()
+        val state by viewModel.state.collectAsStateWithLifecycle()
 
-        LaunchedEffect(Unit) {
-            Logger.withTag("App").i { "App started, showOnboarding = $showOnboarding" }
-        }
-
-        if (showOnboarding) {
-            OnboardingScreen(onFinish = {
-                AppSettings.isOnboardingDone = true
-                showOnboarding = false
-            })
-        } else {
-            HomeScreen(onShowOnboarding = {
-                AppSettings.isOnboardingDone = false
-                showOnboarding = true
-            })
+        state.startRoute?.let { startRoute ->
+            AppNavigation(startRoute = startRoute)
         }
     }
 }

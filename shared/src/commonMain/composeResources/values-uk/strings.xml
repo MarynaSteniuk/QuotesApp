@@ -1,17 +1,48 @@
 <resources>
-    <string name="onboarding_title_1">Розквітни у найкращу версію себе</string>
+    <string name="onboarding_step">Крок %1$d з %2$d</string>
+
+    <string name="onboarding_chip_1">Вітаємо в Daily Quotes</string>
+    <string name="onboarding_title_1">Розквітни у</string>
+    <string name="onboarding_accent_1">найкращу версію себе</string>
     <string name="onboarding_desc_1">Починай кожен ранок із ніжних слів, що надихають на впевненість, любов до себе та спокій.</string>
-    <string name="onboarding_title_2">Сяй усюди, де ти є</string>
+    <string name="onboarding_quote_1">Ти ростеш так, як поки що не можеш побачити.</string>
+
+    <string name="onboarding_chip_2">Лагідні нагадування</string>
+    <string name="onboarding_title_2">Сяй</string>
+    <string name="onboarding_accent_2">усюди, де ти є</string>
     <string name="onboarding_desc_2">Отримуй лагідні нагадування та щоденні афірмації, що підтримують твоє внутрішнє світло.</string>
-    <string name="onboarding_title_3">Тепло й любов щодня</string>
-    <string name="onboarding_desc_3">Відкривай затишні цитати, які зцілюють, надихають і дарують спокій.</string>
-    <string name="onboarding_title_4">Розправ крила</string>
-    <string name="onboarding_desc_4">Твій щоденний куточок доброти й натхненних цитат уже чекає. Почнімо!</string>
+    <string name="onboarding_quote_2">Ти розквітаєш у свій власний час.</string>
+
+    <string name="onboarding_chip_3">Щоденні афірмації</string>
+    <string name="onboarding_title_3">Тепло й любов</string>
+    <string name="onboarding_accent_3">щодня</string>
+    <string name="onboarding_desc_3">Огорни своє серце затишними цитатами, які зцілюють, надихають і дарують спокій.</string>
+    <string name="onboarding_quote_3">Будь до себе лагідніше — ти робиш усе, що можеш.</string>
+
+    <string name="onboarding_chip_4">Готові почати</string>
+    <string name="onboarding_title_4">Розправ</string>
+    <string name="onboarding_accent_4">крила</string>
+    <string name="onboarding_desc_4">Твій щоденний куточок доброти, спокою та натхненних цитат уже чекає. Почнімо!</string>
+    <string name="onboarding_quote_4">3 щоденні натхнення вже чекають на тебе</string>
+
     <string name="btn_skip">Пропустити</string>
     <string name="btn_next">Далі</string>
     <string name="btn_back">Назад</string>
     <string name="btn_start">Почати</string>
+
     <string name="home_title">Daily Quotes</string>
     <string name="home_placeholder">Тут з’являться цитати з DummyJSON у наступній лабораторній.</string>
-    <string name="btn_show_onboarding">Показати онбординг знову</string>
+
+    <string name="auth_chip">Твоє щоденне натхнення</string>
+    <string name="auth_title">З</string>
+    <string name="auth_accent">поверненням</string>
+    <string name="auth_subtitle">Увійди, щоб отримати щоденну порцію натхнення</string>
+    <string name="auth_username">Ім’я користувача</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_sign_in">Увійти</string>
+    <string name="error_username_empty">Введіть ім’я користувача</string>
+    <string name="error_username_short">Ім’я має містити щонайменше 3 символи</string>
+    <string name="error_password_empty">Введіть пароль</string>
+    <string name="error_password_short">Пароль має містити щонайменше 6 символів</string>
+    <string name="auth_quote">«Спокій починається там, де закінчуються очікування.»</string>
 </resources>
